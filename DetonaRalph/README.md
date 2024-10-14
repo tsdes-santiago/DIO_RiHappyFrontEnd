@@ -19,6 +19,10 @@ suba seu projeto no Github e compartilhe conosco clicando no botão "Entregar Pr
 
 O jogo Detona Ralph foi reproduzido seguindo a aula do instrutor.
 
+<p>
+<img src='detonaRalph.png'/>
+</p>
+
 ## Modificações no projeto
 
 Adicionei um ícone ao título da página em **index.html**:
