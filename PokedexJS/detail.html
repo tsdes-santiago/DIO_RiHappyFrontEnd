@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Detail</title>
+    <link rel="icon" type="image/x-icon" href="./src/pokeicon.png">
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/detail.css">
+</head>
+<body>
+    <section class="content grass">
+        
+        <div class="pokemon">
+            <span class="name">Bulbasaur</span>  
+            <span class="number">#001</span>
+        </div>
+
+        <div class="detail-types">
+            <ol class="types">
+                <li class="type grass">Grass</li>
+                <li class="type poison">Poison</li>
+            </ol>
+        </div>
+        <div class="img">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Bulbasaur">
+        </div>
+
+        <div class="info">
+            <ol class="about">
+                <li class="about-list">
+                    <span class="about-item">Species:</span>
+                    <span class="about-value">Seed</span>
+                </li>
+                <li class="about-list">
+                    <span class="about-item">Height:</span>
+                    <span class="about-value">70 cm</span>
+                </li>
+                <li class="about-list">
+                    <span class="about-item">Weight:</span>
+                    <span class="about-value">6.9 kg</span>
+                </li>
+            </ol>
+        </div>
+
+    </section>
+    <!-- JS -->
+    <script src="src/scripts/pokemon-model.js"></script>
+    <script src="src/scripts/poke-api.js"></script>
+    <script src="src/scripts/poke-about.js"></script>
+</body>
+</html>
