@@ -1,0 +1,68 @@
+{
+    "courses_types":
+        {
+            "courses__IA": "Inteligência Artificial",
+            "courses__dados": "Data Science",
+            "courses__frontend": "Front-end",
+            "courses__others": "Outros"
+        },
+
+    "courses__IA": [
+        {
+            "title": "Fundamentos de IA generativa e Claude 3",
+            "certificate_num": "3QAUPRX3",
+            "duration": "10 horas",
+            "date": "25 de Maio de 2024",
+            "description": "Com uma introdução sólida não somente a Inteligência Artificial Generativa, mas um verdadeiro guia de como aplicá-la nas demandas reais do seu dia a dia, o bootcamp chegou para somar no conhecimento dos serviços mais utilizados da AWS na área. Conheça o Amazon Q, o Bedrock e o Claude 3 e adicione essas habilidades no seu currículo, aplicando o que aprendeu de forma prática para criar soluções com mais rapidez e eficiência."
+        },
+        {
+            "title": "Engenharia de Prompts na AWS com Claude",
+            "certificate_num": "I0Q6T8W3",
+            "duration": "10 horas",
+            "date": "13 de Outubro de 2024",
+            "description": "Ganhe habilidades práticas para aplicar engenharia de prompts e tornar a IA Generativa sua aliada no dia a dia. Entenda como esses sistemas são desenvolvidos a partir dos princípios e conceitos básicos da área e maximize suas possibilidades com produtividade e conforme o mercado atual."
+        },
+        {
+            "title": "Microsoft Copilot AI",
+            "certificate_num": "F84ABHOC",
+            "duration": "29 horas",
+            "date": "13 de Agosto de 2024",
+            "description": "Explore na prática e em poucas horas conceitos importantes de Machine Learning, PLN e Visão computacional para dominar o kit de sobrevivência de IA para suas demandas de trabalho. Neste bootcamp, você vai aprender a usar o GitHub Copilot como seu assistente de programação para tarefas como pair programming, revisão de código e refactoring, descobrir como personalizar o Microsoft Copilot para o Microsoft 365 com o Microsoft Copilot Studio, adaptando-o às suas necessidades específicas, e dominar a AI Generativa com o Copilot no Bing para criar e otimizar conteúdo de forma mais eficiente."
+        }
+    ],
+
+    "courses__dados": [
+        {
+            "title": "Data Analytics com Power BI",
+            "certificate_num": "WKMAGWJJ",
+            "duration": "82 horas",
+            "date": "19 de Setembro de 2024",
+            "description": "Dados são o petróleo da tecnologia! Profissionais capazes de transformar grandes massas de dados em informações relevantes que ajudam na tomada de decisões nas empresas são muito valorizados e bem pagos por isso. Neste bootcamp, você participará de uma jornada completa para se tornar um analista de dados, dominando ferramentas e técnicas como Power BI, DAX, ETL, modelagem de dados inteligentes e IA. Além de aprender a extrair, manipular e contar histórias com esses dados em dashboards elegantes e visuais, você enfrentará desafios de código em Python para se preparar ainda mais para o mercado de trabalho."
+        },
+        {
+            "title": "Engenharia de Dados com Python",
+            "certificate_num": "SMDLJWRP",
+            "duration": "91 horas",
+            "date": "19 de Setembro de 2024",
+            "description": "Aprenda desde a linguagem Python até o domínio no tratamento de Dados e dashboard com PowerBI do jeito que é feito na NTT DATA e aumente suas chances de contratação nas vagas oferecidas pela empresa através do bootcamp!"
+        }
+    ],
+    "courses__frontend": [
+        {
+            "title": "Formação HTML Web Developer",
+            "certificate_num": "WVP5VNJK",
+            "duration": "21 horas",
+            "date": "02 de Abril de 2024",
+            "description": "Você quer começar no mundo do Front-end? Então essa é a Formação perfeita para você começar a sua jornada: entenda como trabalhar com HTML, a base para criar suas primeiras páginas WEB! Aprenda na prática a como estruturar a marcação da sua página e como funciona cada tag, conheça os elementos semânticos e outras boas práticas na hora de construir sua primeira página."
+        }
+    ],
+    "courses__others": [
+        {
+            "title": "Preparatório Certificação AWS",
+            "certificate_num": "UX9XQNWK",
+            "duration": "35 horas",
+            "date": "30 de Abril de 2024", 
+            "description": "Boas-vindas à trilha Preparatório Certificação AWS do Santander Bootcamp 2024! Aprenda um conteúdo completamente focado e atualizado para tirar a sua certificação CLF-02 – uma das mais bem vistas do mercado - com sucesso! Ganhe a bagagem necessária para se tornar o profissional certificado que tantas empresas grandes procuram."
+        }
+    ]
+}

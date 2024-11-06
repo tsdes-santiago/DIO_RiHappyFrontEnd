@@ -1,0 +1,62 @@
+/* Fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:wght@200;400&display=swap');
+
+/* Dark theme colors */
+:root, :root[data-theme="dark"] {
+    --primary-color: #d5d5d0;
+
+    --primary-bg-color: #444444;
+    --secondary-bg-color: #666666;
+    --tertiary-bg-color: #222222;
+    --border-color: #9a9a9a;
+
+    --title-color: #c0c0c0;
+    --link-color: #9a9ab3;
+    --icon-color: #c7c8c9;
+    --text-color: #9a9a9a;
+}
+
+/* Light theme colors */
+:root, :root[data-theme="light"] {
+    --primary-color: #0b0b0b;
+
+    --primary-bg-color: #dddddd;
+    --secondary-bg-color: #eeeeee;
+    --tertiary-bg-color: #cccccc;
+    --border-color: #9a9a9a;
+
+    --title-color: #9a9a9a;
+    --link-color: #9a9ab3;
+    --icon-color: #c7c8c9;
+    --text-color: #0f0f0f;
+}
+
+html[data-theme="light"] .skills__item{
+    filter: invert(1);
+}
+
+/* Global styles */
+body {
+    background-color: gray;
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+    max-width: 1000px;
+}
+
+h1, h2, h3{
+    color: var(--title-color);
+}
+
+h1, h1 b {
+    font-size: 1.6rem;
+    color: var(--title-color);
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+p {
+    color: var(--text-color);
+}
